@@ -32,7 +32,7 @@ public class PetStoreTests {
 
     @Test
     public void deveRetornarErroAoPesquisarPetInexistente() {
-        int petIdInexistente = 999999;
+        int petIdInexistente = 9999999;
 
         given()
                 .when()
